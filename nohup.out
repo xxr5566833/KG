@@ -1,0 +1,145 @@
+Traceback (most recent call last):
+  File "deep_keyphrase/copy_rnn/train.py", line 221, in <module>
+    CopyRnnTrainer().train()
+  File "deep_keyphrase/copy_rnn/train.py", line 20, in __init__
+    self.vocab2id = load_vocab(self.args.vocab_path, self.args.vocab_size)
+  File "/home/xiaorui/myrepo/deep-keyphrase/deep_keyphrase/utils/vocab_loader.py", line 8, in load_vocab
+    for word in read_lines_lazy(src_filename):
+  File "/home/xiaorui/anaconda3/envs/keyphrase/lib/python3.8/site-packages/pysenal/io/file.py", line 71, in read_lines_lazy
+    file = open(filename, encoding=encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/xiaorui/myrepo/deep-keyphrase/data/vocab_kp20k_C.txt'
+[2021-05-14 10:14:18,525] [train] destination dir:/home/xiaorui/myrepo/deep-keyphrase/data/kp20k/copyrnn_kp20k_basic_C_withoutcopy-20210514-101418/
+1
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 10:30:31,705] [train] best score: step 8000 macro f1@10 0.0132
+[2021-05-14 10:30:31,706] [train] epoch 1 step 8000, model saved
+2
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 10:47:23,963] [train] best score: step 16000 macro f1@10 0.0154
+[2021-05-14 10:47:23,963] [train] epoch 2 step 16000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 11:04:12,796] [train] best score: step 24000 macro f1@10 0.0182
+[2021-05-14 11:04:12,796] [train] epoch 2 step 24000, model saved
+3
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 11:21:04,814] [train] best score: step 32000 macro f1@10 0.0186
+[2021-05-14 11:21:04,814] [train] epoch 3 step 32000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 11:37:46,994] [train] best score: step 40000 macro f1@10 0.0196
+[2021-05-14 11:37:46,994] [train] epoch 3 step 40000, model saved
+4
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 11:54:50,045] [train] best score: step 48000 macro f1@10 0.0203
+[2021-05-14 11:54:50,045] [train] epoch 4 step 48000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 12:11:50,149] [train] best score: step 56000 macro f1@10 0.0203
+[2021-05-14 12:11:50,149] [train] epoch 4 step 56000, model saved
+5
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 12:28:41,334] [train] best score: step 56000 macro f1@10 0.0203
+[2021-05-14 12:28:41,334] [train] epoch 5 step 64000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 12:45:12,585] [train] best score: step 72000 macro f1@10 0.0211
+[2021-05-14 12:45:12,586] [train] epoch 5 step 72000, model saved
+6
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 13:02:05,793] [train] best score: step 72000 macro f1@10 0.0211
+[2021-05-14 13:02:05,793] [train] epoch 6 step 80000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 13:18:50,239] [train] best score: step 88000 macro f1@10 0.0217
+[2021-05-14 13:18:50,240] [train] epoch 6 step 88000, model saved
+7
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 13:35:50,607] [train] best score: step 96000 macro f1@10 0.0223
+[2021-05-14 13:35:50,607] [train] epoch 7 step 96000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 13:52:45,721] [train] best score: step 104000 macro f1@10 0.0234
+[2021-05-14 13:52:45,722] [train] epoch 7 step 104000, model saved
+8
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 14:09:30,016] [train] best score: step 104000 macro f1@10 0.0234
+[2021-05-14 14:09:30,016] [train] epoch 8 step 112000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 14:26:16,476] [train] best score: step 120000 macro f1@10 0.0239
+[2021-05-14 14:26:16,476] [train] epoch 8 step 120000, model saved
+9
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 14:43:14,872] [train] best score: step 120000 macro f1@10 0.0239
+[2021-05-14 14:43:14,872] [train] epoch 9 step 128000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 14:59:56,179] [train] best score: step 120000 macro f1@10 0.0239
+[2021-05-14 14:59:56,179] [train] epoch 9 step 136000, model saved
+10
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 15:16:55,972] [train] best score: step 144000 macro f1@10 0.0240
+[2021-05-14 15:16:55,973] [train] epoch 10 step 144000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 15:33:41,020] [train] best score: step 144000 macro f1@10 0.0240
+[2021-05-14 15:33:41,021] [train] epoch 10 step 152000, model saved
+11
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 15:50:34,599] [train] best score: step 144000 macro f1@10 0.0240
+[2021-05-14 15:50:34,599] [train] epoch 11 step 160000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 16:07:19,533] [train] best score: step 168000 macro f1@10 0.0241
+[2021-05-14 16:07:19,533] [train] epoch 11 step 168000, model saved
+12
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 16:23:53,945] [train] best score: step 168000 macro f1@10 0.0241
+[2021-05-14 16:23:53,946] [train] epoch 12 step 176000, model saved
+13
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 16:40:39,846] [train] best score: step 168000 macro f1@10 0.0241
+[2021-05-14 16:40:39,846] [train] epoch 13 step 184000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 16:57:25,913] [train] best score: step 192000 macro f1@10 0.0251
+[2021-05-14 16:57:25,913] [train] epoch 13 step 192000, model saved
+14
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 17:14:03,284] [train] best score: step 192000 macro f1@10 0.0251
+[2021-05-14 17:14:03,284] [train] epoch 14 step 200000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 17:31:04,504] [train] best score: step 192000 macro f1@10 0.0251
+[2021-05-14 17:31:04,504] [train] epoch 14 step 208000, model saved
+15
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 17:47:52,964] [train] best score: step 192000 macro f1@10 0.0251
+[2021-05-14 17:47:52,964] [train] epoch 15 step 216000, model saved
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 18:04:33,604] [train] best score: step 192000 macro f1@10 0.0251
+[2021-05-14 18:04:33,604] [train] epoch 15 step 224000, model saved
+16
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.valid_C.json
+/home/xiaorui/myrepo/deep-keyphrase/data/kp20k.test_C.json
+[2021-05-14 18:21:18,571] [train] best score: step 192000 macro f1@10 0.0251
+[2021-05-14 18:21:18,571] [train] epoch 16 step 232000, model saved
+[2021-05-14 18:21:19,387] [train] best step 192000
+29220.862008810043s
