@@ -1,0 +1,4 @@
+windows :tensorboard -> tensorboardX
+linux就没这毛病
+
+2. linux 缺少GLIBCXX_3.4.xx 先conda install libgcc 然后进入当前虚拟环境的anaconda/lib文件夹中，找到libstdc++.so.6.0.26(版本号可能不一样) 利用strings libstdc++.so.6.0.26|grep GLIBCXX 发现有我们想要的GLIBCXX，那么把libstdc++.so.6.0.26 复制到~/usr/lib64，或者说你报错的那个文件夹中，然后删掉原来的rm -r libstdc++.so.6 ，建立新的到它的软连接ln -s libstdc++.so.6.0.18 libstdc++.so.6

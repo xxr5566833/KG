@@ -7,6 +7,7 @@
 *.orig
 *.log
 *.pot
+result/
 __pycache__/*
 .cache/*
 .*.swp
